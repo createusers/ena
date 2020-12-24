@@ -120,69 +120,69 @@ function waktu() {
   if (jam <= 10) {
     if (jam <= 2) {
       kata = [
-        "Udah lewat jam tidur ini",
-        "Astagaa.. jangan begadang aja",
-        "Tidur buu tidur..."
+        "Sube sampun pagi coeg",
+        "Pebedikin megadang",
+        "Tidur yak tidur..."
       ];
     } else if (jam > 2 && jam <= 6) {
       kata = [
-        "Pagi banget bangun ya :v",
-        "Mau ngapain hayoo?",
-        "Oh iya pacar aku kan rajin :)"
+        "Pagi yang sangat indah :)",
+        "Kuyy tidur lagi...",
+        "Atau bangun dadi masi :v"
       ];
     } else {
       kata = [
-        "Bangunin aku kalo belum ya",
-        "Pagi yang indah ya :)",
-        "Semangat bubu"
+        "Selamat pagi kaka",
+        "Pagi yang indah untuk beraktivitas :)",
+        "Semangat yuk semangat"
       ];
     }
-    h2.innerHTML = "Pagi Bubu";
+    h2.innerHTML = "Pagi YakYak";
   } else if (jam > 10 && jam <= 13) {
     if (jam <= 11) {
       kata = [
-        "Gimana dah selesai makan?",
-        "Mandi juga udah kan?",
-        "Kalo ada tugas buat sekarang aja"
+        "Tidur siang mending",
+        "Yang penting sube makan kan?",
+        "Men sing kar pules mending nonton drakor :v"
       ];
     } else {
       kata = [
-        "Ini pasti udah makan kan?",
-        "Kalo bisa tidur siang aja",
-        "Kalo ngerjain tugas, semangat bubu"
+        "Awes konden makan",
+        "Inget minum sii",
+        "Pang ngidaang menghadapi dunia ne keras ne :')"
       ];
     }
-    h2.innerHTML = "Siang Tiara";
+    h2.innerHTML = "Siang Anitya";
   } else if (jam > 13 && jam <= 19) {
     if (jam <= 16) {
       kata = [
-        "Udah dapet tidur siang nih?",
-        "Kalo belum tidur dulu gih",
-        "Kalo ada tugas inget buat"
+        "Hari semakin menipis wkwk",
+        "Men ade tugas mending gae",
+        "Pang sng megadang gen gae ne"
       ];
     } else {
       kata = [
-        "Udah makan kan?",
-        "Tugasnya gimana? udah dibuat?",
-        "Jangan didepan laptop doang ya"
+        "Senja yang indah...",
+        "Nikmati sunset sambil minum kopi",
+        "Kapan ngidaang menikmati senja :v"
       ];
     }
-    h2.innerHTML = "Sore Rara";
+    h2.innerHTML = "Sore Yaak";
   } else {
     if (jam <= 20) {
       kata = [
-        "Mandi muh udah sore, bau",
-        "Inget makan juga",
-        "Kalo mau buat tugas jangan sampe malem"
+        "Kayeh ui be peteng",
+        "Ajak makan masi",
+        "Semangat kaka"
       ];
     } else {
       kata = [
-        "Semangat buat tugasnya...",
-        "Jangan tidur malem banget ya",
-        "Sayang bubu pokoknya :3"
+        "Pasti ngae tugas ne awkwkw",
+        "Semangat para pengejar deadline",
+        "Bisa yuk bisaa"
       ];
     }
-    h2.innerHTML = "Malem Bubu";
+    h2.innerHTML = "Malem Tyaa";
   }
   return kata;
 }
