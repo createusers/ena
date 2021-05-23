@@ -120,9 +120,9 @@ function waktu() {
   if (jam <= 10) {
     if (jam <= 2) {
       kata = [
-        "Wahh udah pagi aja",
-        "Jangan begadang mulu uii",
-        "Tidur diah tidur..."
+        "Tidur woee tidurr",
+        "Jangan begadang mulu zzz",
+        "Jangan lupa juga minum vitaminnya"
       ];
     } else if (jam > 2 && jam <= 6) {
       kata = [
@@ -132,12 +132,12 @@ function waktu() {
       ];
     } else {
       kata = [
-        "Selamat pagi kaka",
+        "Selamat pagi Neng",
         "Pagi yang indah untuk beraktivitas :)",
         "Semangat yuk semangat"
       ];
     }
-    h2.innerHTML = "Pagi Diah";
+    h2.innerHTML = "Pagi Ena";
   } else if (jam > 10 && jam <= 13) {
     if (jam <= 11) {
       kata = [
@@ -149,40 +149,40 @@ function waktu() {
       kata = [
         "Inget makan",
         "Inget minum jugaa",
-        "Dunia emang keras, Semangat :')"
+        "Jangn lupa inget tugas juga :')"
       ];
     }
-    h2.innerHTML = "Siang Diahh";
+    h2.innerHTML = "Siang Ena";
   } else if (jam > 13 && jam <= 19) {
     if (jam <= 16) {
       kata = [
         "Hari semakin menipis wkwk",
         "Nugas dulu nugas",
-        "Tidur juga boleh"
+        "Mandi juga jangan lupa..."
       ];
     } else {
       kata = [
         "Senja yang indah...",
-        "Seindah senyum diah eaa",
+        "Seindah senyum Ena eaa",
         "Udah udah, mending mandi"
       ];
     }
-    h2.innerHTML = "Sore Diah";
+    h2.innerHTML = "Sore Ena";
   } else {
     if (jam <= 20) {
       kata = [
         "Tak kerasa matahari dah tengelam wkwk",
         "Makan dulu makan",
-        "Semangat kaka"
+        "Semangat nuganya kaka"
       ];
     } else {
       kata = [
-        "Malem enaknya ngapain ya?",
-        "Enakan nonton aja kali ya",
-        "Atau tidur hmm"
+        "Pasti lagi buat tugas yaa wkwkw",
+        "Jangan begadang yahh",
+        "Jangan lupa minum vitaminnya.."
       ];
     }
-    h2.innerHTML = "Malem Diah;
+    h2.innerHTML = "Malem Ena";
   }
   return kata;
 }
